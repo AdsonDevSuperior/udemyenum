@@ -1,0 +1,13 @@
+package entities;
+
+import java.sql.Date;
+
+import entities.enums.OrderStatus;
+
+public class Order {
+	
+	private Integer id;
+	private Date moment;
+	private OrderStatus status;
+
+}
